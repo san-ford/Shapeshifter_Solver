@@ -53,7 +53,7 @@ def dfs(grid, shapes, i, solution):
     return False
 
 
-# set up board and shapes
+# set up board and shapes (different for each level)
 board = [[True, False, True],
          [False, True, True],
          [False, False, True],
